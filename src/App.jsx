@@ -1,6 +1,6 @@
 
 import './App.css';
-import Photo1 from './Quiz/Quiz2';
+import Photo from './Quiz/Quiz2';
 
 
 
@@ -8,7 +8,7 @@ import Photo1 from './Quiz/Quiz2';
 function App() {
   return (
       <div className="App"> <br/>
-        <Photo1/>
+        <Photo/>
       </div>
   );
 }
