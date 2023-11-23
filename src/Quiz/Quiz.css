@@ -1,0 +1,80 @@
+.title { /* ข้อความด้านบน */
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.button {
+    display: flex;
+    margin-bottom: auto;
+    padding: 30px;
+    justify-content: center;
+}
+
+.yes-button { /* ปุ่ม yes no */
+  width: 30%; /* ความกว้าง 20% */
+  padding: 20px; /* ขนาดปุ่ม */
+  margin-bottom: auto; /*ระยะขอบ ผลักอัตโนมัติ */
+  background-color: #e0e0e0;
+  border: 1px solid #ccc; /* ความหนา รูปแบบ สีของขอบ */
+  color: rgb(13, 13, 13);
+  border-radius: 5px; 
+  box-shadow: 3px 3px 2px 1px #424242; /* เงากล่องข้อความ */
+  font-size: larger;
+  cursor: pointer;
+  text-align: center; /* ข้อความ อยู่ตรงกลาง */
+  justify-content: center;
+}
+
+.yes-button:hover {
+    box-shadow: #424242;
+    transform: translateY(5px);
+}
+    
+.yes-button:active{
+    background-color: #757575;
+    color: rgb(255, 255, 255);
+    transform: translateY(5px);
+    outline: #424242;
+}
+
+.no-button { /* ปุ่ม yes no */
+    width: 30%; /* ความกว้าง 20% */
+    padding: 20px; /* ขนาดปุ่ม */
+    margin-bottom: auto; /*ระยะขอบ ผลักอัตโนมัติ */
+    background-color: #e0e0e0;
+    border: 1px solid #ccc; /* ความหนา รูปแบบ สีของขอบ */
+    color: rgb(13, 13, 13);
+    border-radius: 5px; 
+    box-shadow: 3px 3px 2px 1px #424242; /* เงากล่องข้อความ */
+    font-size: larger;
+    cursor: pointer;
+    text-align: center; /* ข้อความ อยู่ตรงกลาง */
+    justify-content: center;
+}
+  
+.no-button:hover {
+      box-shadow: #424242;
+      transform: translateY(5px);
+}
+      
+.no-button:active{
+      background-color: #757575;
+      color: rgb(255, 255, 255);
+      transform: translateY(5px);
+      outline: #424242;
+}
+
+.highlight {
+    background-color: #757575;
+    color: rgb(255, 255, 255);
+}
+
+.chevron-icon {
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    width: 48%;
+    height: 48%;
+    color: #424242;
+}
