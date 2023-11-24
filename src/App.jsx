@@ -1,15 +1,15 @@
 
+import React, { useState } from 'react';
 import './App.css';
-import Photo1 from './Quiz/Quiz2';
-
 
 
 
 function App() {
+  const [count, setcount] = useState (0)
   return (
-      <div className="App"> <br/>
-        <Photo1/>
-      </div>
+      <>
+
+      </>
   );
 }
 
